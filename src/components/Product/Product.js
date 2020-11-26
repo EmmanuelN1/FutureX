@@ -2,7 +2,7 @@ import React from 'react';
 import "./Product.css"
 import { useStateValue} from "../ContextApi/StateProvider" 
 
-function Product({title, image, price, rating, id }) {
+function Product({title, image, price, rating, id, description }) {
 
     const [ {basket}, dispatch ] = useStateValue(); //  while the dispatch is how we manipulate the data layer"
 
@@ -26,11 +26,13 @@ function Product({title, image, price, rating, id }) {
     return (
         <div className="product">
             <div className="product__info">
-                    <p>{title}</p> {/* it means use the title that is parsed in */}
+                    <h4>{title}</h4> {/* it means use the title that is parsed in */}
+                    <p className="product__description">{description}</p>
                     <p className="product__price">
                         <small>$</small>
                         <strong>{price}</strong>
                     </p>
+
 
             </div>
 

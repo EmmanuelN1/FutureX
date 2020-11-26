@@ -1,0 +1,17 @@
+@media screen and (max-width: 750px){
+    .app {
+        display: none;
+    }
+   
+}
+
+@media screen and (min-width: 751px){
+    .app__mobileScreen {
+        display:none;
+    }
+   
+}
+
+.app__mobileScreen{
+    text-align: center;
+}

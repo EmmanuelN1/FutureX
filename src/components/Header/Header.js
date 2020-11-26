@@ -12,7 +12,7 @@ function Header() {
         <div className="header">
              {/* Linking the image to th home page onClick */}
                 <Link to="/">
-                    <img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" className="header__logo" alt="logo" />
+                    <img src="https://pngimg.com/uploads/amazn/amazon_PNG11.png" className="header__logo" alt="logo" />
                 </Link>
                 <div className="header__search">
                     <input className="header__searchInput" type="text"/>

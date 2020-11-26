@@ -40,9 +40,10 @@ function App() {
 
           </Switch>
       </div>
-      <div>
-        
-      </div>
+      
+      <div className="app__mobileScreen"> 
+                  <h5>Please, use a laptop or tablet to view this page</h5>
+              </div>
     </Router>
   );
 }

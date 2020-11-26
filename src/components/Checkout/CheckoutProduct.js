@@ -26,13 +26,6 @@ function CheckoutProgram({id, image, title, price, rating}) {
                                 <strong>{price}</strong>
                             </p>
 
-                            <div className="checkoutProduct__rating">
-                                {/* snippet of code that handles the number of ratings in the props */}
-                                {Array(rating).fill().map((_, i) => (
-                                    <p>⭐</p>
-                                ))}
-                            </div>
-
                             <button onClick={removeFromBasket}>Remove from Basket</button>
 
                     </div>
